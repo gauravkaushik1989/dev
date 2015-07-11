@@ -18,6 +18,7 @@ namespace CampusDataServices
         {
             UserInfoDataContract userInfoDataContract = new UserInfoDataContract();
             userinfo userinfo;
+            //this is juts to check the change in code base
             userInfoDataContract.Message = "Service Call !!!";
             userInfoDataContract.Status = true;
             for (int counter = 0; counter < 10; counter++)
